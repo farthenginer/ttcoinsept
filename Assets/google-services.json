@@ -1,0 +1,56 @@
+{
+    "project_info": {
+        "project_number": "510402494467",
+        "firebase_url": "https://sweet-ttcoin-default-rtdb.firebaseio.com",
+        "project_id": "sweet-ttcoin",
+        "storage_bucket": "sweet-ttcoin.appspot.com"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:510402494467:android:62cbaabe0197427d6d4e36",
+                "android_client_info": {
+                    "package_name": "com.ttcoin.sweet"
+                }
+            },
+            "oauth_client": [
+                {
+                    "client_id": "510402494467-8vgeqovvaatdq9t3dcojcq0j50pmmrnq.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "com.ttcoin.sweet",
+                        "certificate_hash": "f36726bf37673ab8e64ef7a1004aba10832f5f7c"
+                    }
+                },
+                {
+                    "client_id": "510402494467-tej3g68gujr9loh4vf3agal08h91arfa.apps.googleusercontent.com",
+                    "client_type": 1,
+                    "android_info": {
+                        "package_name": "com.ttcoin.sweet",
+                        "certificate_hash": "570541055957bb6c63d31fa13bad6042471dbfb7"
+                    }
+                },
+                {
+                    "client_id": "510402494467-escimeqqf0lqf925echqr5h92e62tn00.apps.googleusercontent.com",
+                    "client_type": 3
+                }
+            ],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyCRbrAUKo7k8lEkDIfUo7Rbtn0_WAeGOxI"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": [
+                        {
+                            "client_id": "510402494467-escimeqqf0lqf925echqr5h92e62tn00.apps.googleusercontent.com",
+                            "client_type": 3
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}

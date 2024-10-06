@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_android_client_id,@string/default_web_client_id">
+  <string name="firebase_database_url" translatable="false">https://sweet-ttcoin-default-rtdb.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">510402494467</string>
+  <string name="google_storage_bucket" translatable="false">sweet-ttcoin.appspot.com</string>
+  <string name="project_id" translatable="false">sweet-ttcoin</string>
+  <string name="google_api_key" translatable="false">AIzaSyCRbrAUKo7k8lEkDIfUo7Rbtn0_WAeGOxI</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCRbrAUKo7k8lEkDIfUo7Rbtn0_WAeGOxI</string>
+  <string name="google_app_id" translatable="false">1:510402494467:android:62cbaabe0197427d6d4e36</string>
+  <string name="default_android_client_id" translatable="false">510402494467-8vgeqovvaatdq9t3dcojcq0j50pmmrnq.apps.googleusercontent.com</string>
+  <string name="default_web_client_id" translatable="false">510402494467-escimeqqf0lqf925echqr5h92e62tn00.apps.googleusercontent.com</string>
+</resources>

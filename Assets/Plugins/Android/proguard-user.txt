@@ -1,0 +1,32 @@
+# Firebase
+-keep class com.google.firebase.** { *; }
+-dontwarn com.google.firebase.**
+-keep class com.google.android.gms.** { *; }
+-dontwarn com.google.android.gms.**
+-keep class androidx.lifecycle.** { *; }
+-dontwarn androidx.lifecycle.**
+
+# Proguard settings for Google Sign-In
+-keep class com.google.googlesignin.** { *; }
+-keep class com.google.android.gms.auth.** { *; }
+-keep class com.google.android.gms.common.** { *; }
+-keep class com.google.android.gms.tasks.** { *; }
+-keep class com.android.vending.billing.** { *; }
+-keep class com.android.billingclient.** { *; }
+
+
+# Keep Firebase Auth classes
+-keep class com.google.firebase.auth.** { *; }
+-dontwarn com.google.firebase.auth.**
+
+-keep class com.google.firebase.firestore.** { *; }
+-dontwarn com.google.firebase.firestore.**
+
+
+# Keep SafeParcelable value, needed for serialization.
+-keepnames @com.google.android.gms.common.internal.safeparcel.SafeParcelable class * { *; }
+
+# Needed for Parcelable/SafeParcelable Creators to not get stripped
+-keepnames class * implements android.os.Parcelable {
+    public static final ** CREATOR;
+}
